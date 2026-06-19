@@ -3,7 +3,7 @@
     "bruzl": {
       "type": "http",
       "url": "https://bruzl.de/api/mcp",
-      "oauth": { "clientId": "REPLACE_WITH_PUBLIC_CLIENT_ID", "callbackPort": 8080 }
+      "oauth": { "clientId": "b4c6552d-5b55-4ac6-822a-266f84de6bb8", "callbackPort": 8080 }
     }
   }
 }
