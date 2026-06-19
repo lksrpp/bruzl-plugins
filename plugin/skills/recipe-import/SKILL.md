@@ -48,8 +48,8 @@ without it.
 ### 2. Resolve the target cookbook
 
 Call `list_cookbooks`. Use the one with `isDefault: true` unless the user named a
-specific cookbook — then match by name. Keep its `id` for `create_recipe`'s
-`cookbookId`.
+specific cookbook — then match by name. Keep its `cookbookId` for
+`create_recipe`.
 
 - Exactly one cookbook is `isDefault: true`, or **zero** if the user has none. If
   zero (or the list is empty), tell the user to create a cookbook in Bruzl first
@@ -96,10 +96,10 @@ it with the trusted `cookbookId` from step 2.
 
 ### 7. Report
 
-Confirm the saved recipe's `slug`. Then surface any noteworthy notes in chat
-(rounding from conversions, fields that couldn't be extracted, uncertain
-translations) per §9 of the reference — briefly, no filler. Offer to open the
-recipe in Bruzl if useful.
+Confirm the save and share the recipe's `url` (the link to open it in Bruzl).
+Then surface any noteworthy notes in chat (rounding from conversions, fields that
+couldn't be extracted, uncertain translations) per §9 of the reference — briefly,
+no filler.
 
 ## Scope
 
