@@ -9,14 +9,14 @@ The `bruzl` plugin bundles two things into one installable unit:
 
 Everything here is non-sensitive: the MCP URL is public and login-gated (RLS-scoped), and the bundled OAuth client is a **public PKCE client with no secret**.
 
-## Install
+## Install the Claude (Code) plugin
 
 ```
 /plugin marketplace add lksrpp/bruzl-plugins
 /plugin install bruzl@bruzl-plugins
 ```
 
-On first connect, Claude Code runs OAuth discovery against `bruzl.de/api/mcp` (Supabase as the authorization server) and signs you into your Bruzl account. No manual client-id entry, no secret.
+On first connect, Claude Code runs OAuth discovery against `bruzl.de/api/mcp` and signs you into your Bruzl account.
 
 ## Standalone MCP (non-plugin clients)
 
@@ -32,7 +32,3 @@ plugin/
 └── skills/
     └── recipe-import/            # the import skill (SKILL.md + references/)
 ```
-
-## Status
-
-🚧 **Work in progress (v0.1.0).** Scaffold + manifests are in place; the `recipe-import` skill content and the real OAuth `client_id` are being filled in.
