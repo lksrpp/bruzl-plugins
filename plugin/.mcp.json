@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "bruzl": {
+      "type": "http",
+      "url": "https://bruzl.de/api/mcp",
+      "oauth": { "clientId": "REPLACE_WITH_PUBLIC_CLIENT_ID", "callbackPort": 8080 }
+    }
+  }
+}

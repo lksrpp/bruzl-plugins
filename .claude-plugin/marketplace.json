@@ -1,0 +1,7 @@
+{
+  "name": "bruzl-plugins",
+  "owner": { "name": "Bruzl", "url": "https://bruzl.de" },
+  "plugins": [
+    { "name": "bruzl", "source": "./plugin", "description": "Bruzl recipe tools + recipe-import skill" }
+  ]
+}

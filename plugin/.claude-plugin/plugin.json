@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "bruzl",
+  "version": "0.1.0",
+  "description": "Add and manage recipes in your Bruzl cookbook from Claude — import a recipe from a link, photo, or text and save it correctly formatted.",
+  "author": { "name": "Bruzl", "url": "https://bruzl.de" },
+  "homepage": "https://bruzl.de",
+  "repository": "https://github.com/lksrpp/bruzl-plugins"
+}
