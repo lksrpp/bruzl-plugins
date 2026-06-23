@@ -134,7 +134,7 @@ The AI-service prompt's JSON keys are snake_case; the `create_recipe` tool args 
 | `source` | `source` | — |
 | `source_url` | **`sourceUrl`** | rename |
 | `cover_url` | **`cover`** | rename; **must be a public http(s) image URL or omitted** — MCP has no upload path, and the tool rejects non-http(s) URLs. You cannot attach a local image. |
-| `suggested_categories` | **`categories`** | rename; keys from `list_categories` only; omit or `[]` if none fit |
+| `suggested_categories` | **`categories`** | rename; names from `list_categories` only; omit or `[]` if none fit |
 | `review` | *(none)* | report in chat instead — see §9 |
 
 `cookbookId` is also required — it comes from `list_cookbooks` at runtime (the default cookbook unless the user named another), not from the recipe.
@@ -153,7 +153,7 @@ Call `create_recipe` with these args (`cookbookId` from `list_cookbooks`):
 - **`source`**: `NYT Cooking`
 - **`sourceUrl`**: `https://cooking.nytimes.com/recipes/spiced-cherry-tomato`
 - **`cover`**: `https://static01.nyt.com/images/2025/05/01/multimedia/cherry-tomato-jhpt/cherry-tomato-jhpt-master768.jpg`
-- **`categories`**: `["pasta", "italienisch"]`
+- **`categories`**: `["Pasta", "Italienisch"]`
 - **`content`**:
 
 ```markdown

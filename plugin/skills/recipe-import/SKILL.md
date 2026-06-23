@@ -33,7 +33,7 @@ The Bruzl MCP server exposes these (plugin-namespaced as
 names are used below):
 
 - `list_cookbooks` — pick the target cookbook
-- `list_categories` — the only valid `categories` keys
+- `list_categories` — the only valid `categories` names
 - `create_recipe` — save the recipe (the write)
 
 ## Workflow
@@ -68,8 +68,8 @@ time). If you can't find a recipe in the source, say so and stop.
 
 ### 4. Pull valid categories
 
-Call `list_categories` for the chosen cookbook. The returned category **keys** are
-the *only* allowed values for `create_recipe`'s `categories`. Never invent keys;
+Call `list_categories` for the chosen cookbook. The returned category **names** are
+the *only* allowed values for `create_recipe`'s `categories`. Never invent names;
 omit categories (or pass `[]`) if none genuinely fit.
 
 ### 5. Format (the low-freedom part)
@@ -91,7 +91,7 @@ it with the trusted `cookbookId` from step 2.
 
 - **Slug collision** (`A recipe with that title already exists…`) or **reserved
   slug** — surface the message and offer a different title; retry with the new one.
-- **Unknown category key** — drop the offending key(s) (re-check against
+- **Unknown category name** — drop the offending name(s) (re-check against
   `list_categories`) and retry.
 
 ### 7. Report
