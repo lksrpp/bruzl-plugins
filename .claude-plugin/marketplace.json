@@ -2,6 +2,6 @@
   "name": "bruzl-plugins",
   "owner": { "name": "Bruzl", "url": "https://bruzl.de" },
   "plugins": [
-    { "name": "bruzl", "source": "./plugin", "description": "Bruzl recipe tools + recipe-import skill" }
+    { "name": "bruzl", "source": "./plugin", "description": "Connect Claude with your Bruzl cookbook: Create, import and manage all your recipes." }
   ]
 }
