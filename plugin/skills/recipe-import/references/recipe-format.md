@@ -64,6 +64,7 @@ Halte dich genau an die Vorgaben aus dem Rezept, kürze und vereinfache den Text
 **Zubereitung (`## ZUBEREITUNG`):**
 - Gliedere in nummerierte `### Hauptschritte` mit Zeitangabe: `### 1. Die Sauce (⏱️ ~1 Stunde)`
 - Innerhalb der Schritte: nummerierte Einzelschritte (1. 2. 3.)
+- Ein Einzelschritt beschreibt einen Arbeitsgang. Teile längere Absätze der Quelle auf: Vorbereiten, Erhitzen und Garen stehen in eigenen Einzelschritten. Zusammen bleibt nur, was direkt zusammengehört (z.B. „hinzufügen und ⏱️ 1 Min. anbraten“).
 - Referenziere Zutaten kursiv mit Menge und Zubereitungshinweis: `_Knoblauch_ (2 Zehen, dünn geschnitten)`
 - Zutaten ohne Mengenangabe werden ohne Klammer referenziert: `_Salz_`, `_Pfeffer_`
 - Inline-Zeitangaben: `⏱️ 1 Min.`
