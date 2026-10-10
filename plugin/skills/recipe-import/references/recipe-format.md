@@ -11,8 +11,10 @@ Halte dich genau an die Vorgaben aus dem Rezept, kürze und vereinfache den Text
 - Konvertiere Maßangaben in deutsche Formate:
   - Löffelmaße: tablespoon/tbsp → EL, teaspoon/tsp → TL (nicht in ml umrechnen)
   - Gewichte: lb/oz → g/kg
-  - Cups/fl oz bei Flüssigkeiten → ml
-  - Cups bei festen Zutaten (Gemüse, Kräuter, Mehl …) → g
+  - „cup“ ist eine US-Maßeinheit (1 cup ≈ 240 ml), keine Tasse. Übersetze es nie als „Tasse“, sondern rechne um:
+    - Flüssigkeiten (auch fl oz) → ml
+    - Feste Zutaten (Gemüse, Kräuter, Mehl …) → g
+    - Nennt die Quelle zusätzlich ein Gewicht, übernimm nur das Gewicht
   - Bereits metrische Angaben (ml, l, g, kg, EL, TL) unverändert übernehmen
 
 ## 3. Struktur des `content`-Felds
