@@ -9,7 +9,7 @@ Halte dich genau an die Vorgaben aus dem Rezept, kürze und vereinfache den Text
 - Übersetze alle Rezepte auf Deutsch
 - Ausnahme: bekannte Eigennamen von Gerichten (z.B. Pad Thai, Ratatouille)
 - Konvertiere Maßangaben in deutsche Formate:
-  - Löffelmaße: tablespoon/tbsp → EL, teaspoon/tsp → TL (niemals in ml umrechnen)
+  - Löffelmaße: tablespoon/tbsp → EL, teaspoon/tsp → TL (nicht in ml umrechnen)
   - Gewichte: lb/oz → g/kg
   - Cups/fl oz bei Flüssigkeiten → ml
   - Cups bei festen Zutaten (Gemüse, Kräuter, Mehl …) → g
@@ -56,8 +56,8 @@ Halte dich genau an die Vorgaben aus dem Rezept, kürze und vereinfache den Text
 **Zutaten (`## ZUTATEN`):**
 - Jede Zutat: `- **[Menge]** [Zutat]` (Menge fett)
 - Optionale Zubereitungshinweise nach Komma: `- **200 g** Kirschtomaten, halbiert`
-- Verwende `### Unterüberschriften` für Zutatgruppen (Sauce, Teig, etc.) — aber NUR wenn die Zutatenliste lang genug ist und natürliche Gruppen hat
-- Teile die gleiche Zutat NICHT über mehrere Gruppen auf
+- Verwende `### Unterüberschriften` für Zutatgruppen (Sauce, Teig, etc.) aber nur, wenn die Zutatenliste lang genug ist und natürliche Gruppen hat
+- Teile die gleiche Zutat nicht über mehrere Gruppen auf
 
 **Zubereitung (`## ZUBEREITUNG`):**
 - Gliedere in nummerierte `### Hauptschritte` mit Zeitangabe: `### 1. Die Sauce (⏱️ ~1 Stunde)`
@@ -67,9 +67,9 @@ Halte dich genau an die Vorgaben aus dem Rezept, kürze und vereinfache den Text
 - Inline-Zeitangaben: `⏱️ 1 Min.`
 
 **Hinweise (`## HINWEISE`):**
-- Nur wenn relevante Hinweise im Rezept vorhanden sind (Aufbewahrung, Alternativen, Tipps)
+- Nur Hinweise des Rezeptautors (Aufbewahrung, Alternativen, Tipps)
 - Jeder Hinweis mit passendem Emoji-Prefix (❄️, 🌶️, 💡, 🔄, etc.)
-- Weglassen wenn keine Hinweise vorhanden — dann **kein** `## HINWEISE` Abschnitt
+- Weglassen, wenn keine Hinweise vorhanden sind. Dann gibt es keinen `## HINWEISE` Abschnitt
 
 ## 5. Wichtige Leerzeilen
 

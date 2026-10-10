@@ -43,6 +43,8 @@ Depending on the user's input, you may need to fetch or read the recipe from dif
 - **Pasted text** — use it directly.
 - **Image / PDF** — read the recipe from the attachment.
 
+Use only the recipe as published on the source. Ignore comments, ratings, Q&A, and reader variations or tips, even if they sound useful. They don't belong in the ingredients, steps, or notes.
+
 If you can't find a recipe in the source, say so and stop. If multiple recipes are present, ask which one you should import. You can only import one recipe at a time. 
 
 ### 4. Format the recipe
@@ -61,6 +63,7 @@ If you can't find a recipe in the source, say so and stop. If multiple recipes a
 - **`duration` (Gesamtdauer)**:
   - Format: `X Std. Y Min.` (e.g., `1 Std. 30 Min.`, `45 Min.`, `2 Std.`)
   - No `~`-approximation and no decimal places
+  - If no total time is given, add up the step times and mention it in the review bullets (step 7)
 - **General Rules**: 
   - Omit these fields (`duration`, `author`, `source`, `sourceUrl`, `cover`) if they cannot be unambiguously extracted from the source.
   - Never invent authors, sources, or URLs.
@@ -68,7 +71,7 @@ If you can't find a recipe in the source, say so and stop. If multiple recipes a
 ### 7. Confirm, then write the recipe
 
 - Show the formatted result to the user: the title, the rendered Markdown body, chosen categories, and the metadata.
-- Briefly highlight details the user might want to review in a concise bullet list. ONLY include:
+- Briefly highlight details the user might want to review in a concise bullet list. Only include:
   - Rounding from unit conversions (e.g., "1/3 cup → 80 ml (gerundet)")
   - Fields that couldn't be extracted (e.g., "Kein Autor im Rezepttext gefunden")
   - Substantive translations/renames (e.g., "Titel von Englisch übersetzt")
